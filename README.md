@@ -1,1 +1,1 @@
-# honeyminer.github.io
+# honeyminer
