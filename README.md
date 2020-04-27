@@ -1,1 +1,1 @@
-# honeyminer
+# webminepool
