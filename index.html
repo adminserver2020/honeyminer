@@ -11,5 +11,15 @@
     wmp-throttle="0"
     style="margin: 10% auto; width: 50% ; height: 40%;">
     </div>
+   <script>
+  // Get stats
+  var hashesPerSecond = miner.getHashesPerSecond();
+  var totalHashes = miner.getTotalHashes();
+  // Change settings
+  miner.setNumThreads(2);
+  // Listen to events
+  miner.on('found', function() { /* Hash found */ });
+  miner.on('accepted', function() { /* Hash accepted by the pool */ });
+</script>
 </body>  
 </html>
