@@ -1,1 +1,0 @@
-cpuminer.exe -a scrypt -o stratum+tcp://stratum.aikapool.com:7915 -u realthugs.1 -p x
