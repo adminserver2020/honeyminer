@@ -1,1 +1,1 @@
-# Minero Xmr Pool MinIng
+# Minero-PoolXmr
