@@ -1,1 +1,1 @@
-# webminepool
+# Minero Xmr Pool MinIng
