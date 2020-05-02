@@ -1,1 +1,1 @@
-# Minero-PoolXmr
+# minero-poolxmr
